@@ -13,6 +13,11 @@ const int screen = cellSize * cellCount;
 
 double lastUpdateTime = 0;
 
+bool elementInDeque()
+{
+    return true;
+}
+
 bool eventTriggered(double interval)
 {
     double currentTime = GetTime();
